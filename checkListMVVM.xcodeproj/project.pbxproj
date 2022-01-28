@@ -17,6 +17,9 @@
 		5C39F1AA27A3A47300AC1B38 /* checkListMVVMTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C39F1A927A3A47300AC1B38 /* checkListMVVMTests.swift */; };
 		5C39F1B427A3A47300AC1B38 /* checkListMVVMUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C39F1B327A3A47300AC1B38 /* checkListMVVMUITests.swift */; };
 		5C39F1B627A3A47300AC1B38 /* checkListMVVMUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C39F1B527A3A47300AC1B38 /* checkListMVVMUITestsLaunchTests.swift */; };
+		5C39F1C427A3A4C900AC1B38 /* ListsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C39F1C327A3A4C900AC1B38 /* ListsViewController.swift */; };
+		5C39F1C527A3A4C900AC1B38 /* ListsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C39F1C327A3A4C900AC1B38 /* ListsViewController.swift */; };
+		5C39F1C627A3A4C900AC1B38 /* ListsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C39F1C327A3A4C900AC1B38 /* ListsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,7 @@
 		5C39F1AF27A3A47300AC1B38 /* checkListMVVMUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = checkListMVVMUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C39F1B327A3A47300AC1B38 /* checkListMVVMUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = checkListMVVMUITests.swift; sourceTree = "<group>"; };
 		5C39F1B527A3A47300AC1B38 /* checkListMVVMUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = checkListMVVMUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5C39F1C327A3A4C900AC1B38 /* ListsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +105,7 @@
 		5C39F18E27A3A47200AC1B38 /* checkListMVVM */ = {
 			isa = PBXGroup;
 			children = (
+				5C39F1C227A3A47D00AC1B38 /* View */,
 				5C39F18F27A3A47200AC1B38 /* AppDelegate.swift */,
 				5C39F19127A3A47200AC1B38 /* SceneDelegate.swift */,
 				5C39F19327A3A47200AC1B38 /* ViewController.swift */,
@@ -128,6 +133,14 @@
 				5C39F1B527A3A47300AC1B38 /* checkListMVVMUITestsLaunchTests.swift */,
 			);
 			path = checkListMVVMUITests;
+			sourceTree = "<group>";
+		};
+		5C39F1C227A3A47D00AC1B38 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5C39F1C327A3A4C900AC1B38 /* ListsViewController.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -265,6 +278,7 @@
 				5C39F19027A3A47200AC1B38 /* AppDelegate.swift in Sources */,
 				5C39F19A27A3A47200AC1B38 /* checkListMVVM.xcdatamodeld in Sources */,
 				5C39F19227A3A47200AC1B38 /* SceneDelegate.swift in Sources */,
+				5C39F1C427A3A4C900AC1B38 /* ListsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,6 +286,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5C39F1C527A3A4C900AC1B38 /* ListsViewController.swift in Sources */,
 				5C39F1AA27A3A47300AC1B38 /* checkListMVVMTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -282,6 +297,7 @@
 			files = (
 				5C39F1B427A3A47300AC1B38 /* checkListMVVMUITests.swift in Sources */,
 				5C39F1B627A3A47300AC1B38 /* checkListMVVMUITestsLaunchTests.swift in Sources */,
+				5C39F1C627A3A4C900AC1B38 /* ListsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
