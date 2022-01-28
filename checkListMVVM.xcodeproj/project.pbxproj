@@ -23,6 +23,9 @@
 		5C39F1C927A3AA4400AC1B38 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C39F1C827A3AA4400AC1B38 /* Item.swift */; };
 		5C39F1CA27A3AA4400AC1B38 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C39F1C827A3AA4400AC1B38 /* Item.swift */; };
 		5C39F1CB27A3AA4400AC1B38 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C39F1C827A3AA4400AC1B38 /* Item.swift */; };
+		5C39F1CE27A3AA8500AC1B38 /* List.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C39F1CD27A3AA8500AC1B38 /* List.swift */; };
+		5C39F1CF27A3AA8500AC1B38 /* List.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C39F1CD27A3AA8500AC1B38 /* List.swift */; };
+		5C39F1D027A3AA8500AC1B38 /* List.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C39F1CD27A3AA8500AC1B38 /* List.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +62,7 @@
 		5C39F1B527A3A47300AC1B38 /* checkListMVVMUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = checkListMVVMUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		5C39F1C327A3A4C900AC1B38 /* ListsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListsViewController.swift; sourceTree = "<group>"; };
 		5C39F1C827A3AA4400AC1B38 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		5C39F1CD27A3AA8500AC1B38 /* List.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = List.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -152,6 +156,7 @@
 			isa = PBXGroup;
 			children = (
 				5C39F1C827A3AA4400AC1B38 /* Item.swift */,
+				5C39F1CD27A3AA8500AC1B38 /* List.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -289,6 +294,7 @@
 			files = (
 				5C39F19427A3A47200AC1B38 /* ViewController.swift in Sources */,
 				5C39F19027A3A47200AC1B38 /* AppDelegate.swift in Sources */,
+				5C39F1CE27A3AA8500AC1B38 /* List.swift in Sources */,
 				5C39F19A27A3A47200AC1B38 /* checkListMVVM.xcdatamodeld in Sources */,
 				5C39F19227A3A47200AC1B38 /* SceneDelegate.swift in Sources */,
 				5C39F1C927A3AA4400AC1B38 /* Item.swift in Sources */,
@@ -301,6 +307,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5C39F1C527A3A4C900AC1B38 /* ListsViewController.swift in Sources */,
+				5C39F1CF27A3AA8500AC1B38 /* List.swift in Sources */,
 				5C39F1CA27A3AA4400AC1B38 /* Item.swift in Sources */,
 				5C39F1AA27A3A47300AC1B38 /* checkListMVVMTests.swift in Sources */,
 			);
@@ -313,6 +320,7 @@
 				5C39F1CB27A3AA4400AC1B38 /* Item.swift in Sources */,
 				5C39F1B427A3A47300AC1B38 /* checkListMVVMUITests.swift in Sources */,
 				5C39F1B627A3A47300AC1B38 /* checkListMVVMUITestsLaunchTests.swift in Sources */,
+				5C39F1D027A3AA8500AC1B38 /* List.swift in Sources */,
 				5C39F1C627A3A4C900AC1B38 /* ListsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
